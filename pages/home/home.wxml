@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">常晶晶</text>
+<button>是</button>
+<button>否</button>
