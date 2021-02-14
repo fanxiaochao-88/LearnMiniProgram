@@ -1,4 +1,20 @@
 <!--pages/home/home.wxml-->
-<text class="title">常晶晶</text>
+<view class="title">常晶晶</view>
 <button>是</button>
 <button>否</button>
+
+<!-- <my-prop title='哈哈哈' titleclass='red'></my-prop>
+<my-prop title='呵呵呵' titleclass='green'></my-prop>
+<my-prop titleclass='blue'></my-prop> -->
+
+<!-- <mycpn></mycpn>
+<mycpn></mycpn>
+<mycpn></mycpn> -->
+<!-- <my-style></my-style> -->
+
+<view>当前计数:{{counter}}</view>
+<my-event bind:increment='handleIncrement'></my-event>
+
+
+
+<w-tab-control titles="{{['衣服','鞋子','裤子','帽子']}}" bind:innerItemClick="innerItemClick"></w-tab-control>

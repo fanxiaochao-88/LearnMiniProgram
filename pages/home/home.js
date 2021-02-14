@@ -1,11 +1,20 @@
 // pages/home/home.js
 Page({
+  innerItemClick(event){
+    console.log('子组件选项卡被点击了',event);
+  },
+  handleIncrement(event){
+    console.log('子组件发射过来信号了',event);
+    this.setData({
+      counter:this.data.counter+1
+    })
+  },
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    counter:0
   },
 
   /**
