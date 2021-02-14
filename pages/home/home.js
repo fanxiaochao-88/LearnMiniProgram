@@ -1,5 +1,13 @@
 // pages/home/home.js
 Page({
+  handleIncrementCpn(){
+    // 修改子组件中的数据
+    const my_sel=this.selectComponent('#sel-id')
+    // my_sel.setData({
+    //   counter:my_sel.data.counter + 1
+    // })
+    my_sel.incrementCounter(2)
+  },
   innerItemClick(event){
     console.log('子组件选项卡被点击了',event);
   },

@@ -18,3 +18,7 @@
 
 
 <w-tab-control titles="{{['衣服','鞋子','裤子','帽子']}}" bind:innerItemClick="innerItemClick"></w-tab-control>
+
+
+<button bindtap="handleIncrementCpn">修改组件内的数据</button>
+<my-sel id="sel-id"></my-sel>
